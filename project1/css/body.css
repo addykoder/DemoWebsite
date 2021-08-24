@@ -1,0 +1,78 @@
+#form {
+  width: 98vw;
+  margin: auto;
+
+  border-radius: 50px;
+  background-color: rgba(0, 0, 0, 0.7);
+
+  text-align: center;
+
+  padding: 30px;
+
+  overflow: auto;
+}
+
+#formtitle {
+  font-size: 75px;
+  font-family: cursive;
+  font-variant: small-caps;
+  width: 98vw;
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#form input {
+  display: block;
+  width: 45vw;
+
+  
+  margin-top: 40px;
+  margin-bottom: 50px;
+  outline: none;
+  color: white;
+  
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  border-bottom: 1px solid white;
+  font-size: 20px;
+}
+
+#form input:focus{
+    width:80vw;
+    
+    transition: width 0.2s;
+    
+}
+
+#form input:hover{
+
+}
+
+#submit {
+  padding: 15px 10vw;
+  margin: 15px auto;
+
+  text-decoration: none;
+  color: grey;
+  border: 2px solid white;
+  float: left;
+}
+
+#reset {
+  padding: 15px 10vw;
+  margin: auto;
+  margin: 15px auto;
+  text-decoration: none;
+  color: grey;
+  border: 2px solid white;
+  float: left;
+}
+
+.buttons {
+  display: flex;
+}
+
+.buttons a:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}

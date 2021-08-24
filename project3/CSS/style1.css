@@ -1,0 +1,250 @@
+*{
+    padding: 0;
+    margin:0;
+    outline:none;
+    border: none;
+    box-sizing: border-box;
+}
+body *{
+    
+    overflow: hidden;
+}
+
+#login{
+    
+    grid-area: login;
+    width: 50vw;
+
+    
+    
+    
+}
+
+#images{
+    background-image: url("../ASSETS/side_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    
+    width: auto;
+    grid-area: images;
+    width: 50vw;
+    height: 550px;
+    overflow: hidden;
+    
+}
+
+
+
+
+#services{
+    
+    background-color: #2b1e16;
+    grid-area: services;
+    display: flex;
+    
+    justify-content: center;
+    
+    align-items: baseline;
+    
+}
+
+#services span{
+    margin: 0 120px;
+    text-align: center;
+    width: 260px;
+    margin-bottom: 90px;
+}
+
+#download{
+    background-color: greenyellow;
+    grid-area: download;
+}
+
+#footer{
+    background-color: black;
+    color: white;
+    grid-area: footer;
+}
+
+
+#page{
+    display: grid;
+    grid-template-areas: 
+    'login login images images'
+    'login login images images'
+    'services services services services'
+    'download download download download '
+    'footer footer footer footer'
+    ;
+}
+
+#services span img{
+    width: 120px;
+    padding-bottom: 35px;
+   
+}
+
+#services span h5{
+    color: white;
+    font-family: sans-serif;
+    font-size: 22px;
+    margin-bottom: 10px;
+
+}
+
+#services span p{
+    color: #e0cbc1;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+#logo{
+    width: 50px;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 795;
+    color: #fc8019;
+    letter-spacing: 2px;
+    
+
+    justify-content: space-between;
+    
+}
+
+#log{
+    font-size: 15px;
+    letter-spacing: normal;
+    color: black;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+
+#sign{
+    font-size: 15px;
+    letter-spacing: normal;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+}
+
+#links a{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-align:center;
+    float: right;
+}
+
+#innav{
+
+    float: right;
+    width: 600px; 
+    margin: 50px 0px;
+     margin-right: 65px;
+     overflow: visible;
+}
+
+#log:hover{
+    color: #fc8019;
+}
+
+
+#hungry{
+    font-family:  sans-serif;
+    font-weight: bolder;
+    margin-top: 50px;
+    font-size: 35px;
+    
+}
+
+#p{
+    font-family: arial;
+    font-size: 22px;
+    margin-top: 13px;
+    filter: opacity(65%);
+}
+
+#hungry:hover{
+    content: "hello";
+}
+
+#inp{
+    margin-top: 55px;
+    padding: 20px ;
+    border: 1px solid grey;
+    filter: opacity(60%);
+    width: 75%;
+    font-size: 16px;
+    font-family: arial;
+    
+
+    margin-bottom: 30px;
+    caret-color: #fc8019;
+
+}
+
+#inp:focus{
+    filter: opacity(100%);
+    border-color: #fc8019;
+    box-shadow: 0 0 8px rgba(0,0,0,0.15);
+}
+
+#find{
+    box-sizing: border-box;
+    width: 25%;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    padding: 19px 20px;
+    padding-bottom: 20px;
+    background-color: #fc8019;
+    position: relative;
+    left: -5px;
+    letter-spacing: 1px;
+    overflow: hidden;
+}
+
+#pop{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    
+    
+    
+    font-size: 18px;
+    font-family: arial;
+    color: gray;
+    font-family: sans-serif;
+    font-weight: 100;
+    margin-bottom: 30px;
+    
+}
+
+.link{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    
+    
+    
+    font-size: 18px;
+    font-family: arial;
+    color: rgb(102, 102, 102);
+    font-family: sans-serif;
+    font-weight: 100;
+    margin-bottom: 30px;
+    text-decoration: none;
+    margin-right: 5px;
+    font-weight: 700;
+}
+
+.light{
+    opacity: 60%;
+}

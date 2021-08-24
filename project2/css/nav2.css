@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1.5vw;
+  border: none;
+  outline: none;
+}
+
+#nav2 {
+  background-color: rgb(8, 28, 56);
+  overflow: auto;
+  padding: 3vh 10vw;
+  margin: 1vh;
+  box-shadow: .5vh .5vw 15px rgb(128, 128, 128);
+  
+
+}
+
+#title2 {
+    float: left;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: .2vh;
+  text-align: center;
+  width: 15vw;
+  transition:letter-spacing.2s;
+}
+
+#title2:hover{
+  letter-spacing: .5vh;
+  transition:letter-spacing.2s;
+  
+  
+}
+
+#tabs2 a {
+    position: relative;
+  text-decoration: none;
+  color: rgb(170, 170, 170);
+  font-size: 1.3vw;
+  margin: .3vh .8vw;
+  padding : .7vh 1vw
+}
+
+#tabs2 a:hover, #tabs2 a:focus{
+    background-color: rgb(0, 204, 255);
+    color: white;
+    border-radius: 50vh;
+    padding: .7vh 1.8vw;
+    margin: .3vh 0;
+    transition: padding-left.1s, padding-right.1s, margin-left.1s, margin-right.1s;
+}
+
+#tabs2 li {
+    float: right;
+    list-style-type: none;
+    margin: 0 1vw;
+}

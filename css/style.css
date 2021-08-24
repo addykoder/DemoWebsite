@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#nav pre{
+    
+    text-align: center;
+    font-family: cursive;
+    margin: 5px;
+    margin-bottom: 30px;
+    background-color: rgb(98, 224, 255);
+    padding: 5px 20px;
+    letter-spacing: 5px;
+}
+
+#page{
+    text-align: center;
+    font-family: cursive;
+    margin: 5px;
+    margin-bottom: 10px;
+    background-color: rgb(98, 224, 255);
+    padding: 5px 20px;
+    list-style-type: none;
+    
+}
+
+#page a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+
+

@@ -1,0 +1,49 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+
+#nav3{
+    background-color: rgb(8, 8, 31);
+    padding: 1.5vw 10vh;
+}
+
+#tabs3{
+    display: flex;
+    justify-content: center;
+}
+
+#tabs3 li{
+    
+    list-style-type: none;
+    margin: 0 1.5vw;
+}
+
+#tabs3 a{
+    font-size: 1.6vw;
+    color:rgb(112, 112, 112);
+    text-decoration: none;
+    padding: 1vw 1.5vw;
+}
+
+#tabs3 a:hover, #tabs3 a:focus{
+    
+    color:white;
+    text-shadow:
+          0 0 7px #fff,
+          0 0 10px #fff,
+          0 0 21px rgb(170, 255, 205),
+          0 0 42px rgb(39, 247, 177),
+          0 0 82px rgb(0, 214, 89),
+          0 0 92px rgb(0, 182, 70),
+          0 0 102px rgb(0, 100, 182),
+          0 0 151px rgb(0, 31, 131);
+      
+    transition: text-shadow.2s;
+}
+
+#nav3:hover{
+    box-shadow: 0 0.5vh 15px rgba(0, 0, 0, 0.596) ;
+}
