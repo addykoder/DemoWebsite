@@ -1,0 +1,163 @@
+body{
+    background-color:rgba(0, 177, 201, 0.1);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+}
+
+#userName{
+    padding: 10px 45px;
+    font-size: 25px;
+}
+
+#heading{
+    font-size: 75px;
+    
+    font-weight: 1000;
+    /* background-color: rgb(0, 177, 201);
+    color: white; */
+    color: rgb(0, 177, 201);
+    background-color:rgba(0, 0, 0, 0);
+    border-radius: 500px;
+    padding: 15px 50px;
+    padding-left: 35px;
+    
+}
+#heading2{
+    border-left: 5px solid rgb(0, 177, 201);
+    font-size: 30px;
+    padding-left: 10px;
+    color: rgba(0, 0, 0, 0.452);
+}
+
+#newNote{
+    margin-left: 35px;
+    
+}
+
+#title{
+    font-size: 27px;
+    width: 60vw;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    padding:5px 30px;
+    padding-top: 10px;
+    
+}
+
+#title:focus{
+    
+    outline: none;
+}
+
+#create{
+    width: 115px;
+    margin-left: 20px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+
+#create:hover{
+    background-color: rgba(0, 0, 0, 0.74);
+}
+
+#noteValue{
+    font-size: 17px;
+    resize: none;
+    width: 68vw;
+    margin: 25px 0px;
+    border: none;
+    border-radius: 10px;
+    padding:15px 30px
+    
+    
+}
+
+#noteValue:focus{
+    outline: none;
+}
+
+hr{
+    background-color: rgb(0, 177, 201);
+    border: none;
+    height: 2px;
+    width: 70vw;
+    align-items: flex-start;
+    margin: 70px 15px;
+    margin-left: 35px;
+}
+
+#savedNotes{
+    margin-left: 35px;
+}
+
+
+
+
+
+.delete{
+    width: 80px;
+    background-color: red;
+    border:none;
+    color: white;
+    margin-left: 20px;
+    border-radius: 7px;
+    font-weight: 700;
+    font-size: 15px;
+}
+.delete:hover{
+    cursor: pointer;
+    background-color: rgb(214, 1, 1);
+}
+
+
+.notes{
+    display: flex;
+    justify-content: flex-start;
+    margin: 15px 10px;
+}
+
+.noteTitle{
+    /* background-color: rgb(0, 177, 201); */
+    background-color: white;
+    width: 60vw;
+    color:rgb(0, 108, 180);
+    padding: 5px 20px;
+    border-radius: 7px;
+    font-size: 20px;
+    transition: letter-spacing 50ms linear;
+
+}
+
+.noteTitle:hover{
+    cursor: pointer;
+    /* text-decoration: underline; */
+    letter-spacing: 1px;
+    transition: letter-spacing 50ms linear;
+}
+
+#clear{
+    margin-left: 900px;
+    width: 90px; height: 
+    35px;border: none;
+    background-color: black;
+    color: white; 
+    border-radius: 5px;
+}
+#clear:hover{
+    cursor: pointer;
+    background-color:rgba(0, 0, 0, 0.74) ;
+}

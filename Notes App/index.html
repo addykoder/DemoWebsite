@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div>
+            <h1 id = "heading">Magic Notes </h1>
+            
+        </div>
+        <span id = "userName" style="opacity: 60%;">&copy Aditya</span>
+    </header>
+
+    
+    
+    
+    
+    
+    
+    
+    <div id="newNote">
+        <h3 id="heading2">New Note</h3>
+        <div style="display: flex; text-align: center;">
+            <input type="text" placeholder="Title" id="title" spellcheck="false" >
+            <input type="button" value="Create" id="create" >
+
+        </div>
+        <textarea id="noteValue" cols="30" rows="10" style="display: none;" spellcheck="false" placeholder="Your Text here" maxlength="800"></textarea>
+    </div>
+    
+    <hr id="hr">
+    
+    <div id = "savedNotes">
+        <h3 id="heading2">Your Notes <input type="button" value="Clear" id="clear" ></h3>
+        <ol id="notesList">
+            <!-- Note 1 -->
+            <!-- <div class="notes">
+                <span class="noteTitle">
+                    Demo note Title
+                </span>
+                <input type="button" value="Delete" class="delete">
+            </div> -->      
+        </ol>
+    </div>
+    
+    <div style="height: 500px;">
+
+    </div>
+
+
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
