@@ -1,0 +1,143 @@
+/* Styling the Header */
+header{
+	background-image: var(--gradient-primary);
+	padding: 8px 16px;
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+nav{
+	position: fixed;
+	top:0;
+	right:-100%;
+	background-image: var(--gradient-primary);
+	transition: right .3s;
+}
+
+@supports(backdrop-filter: blur(48px)){
+	nav{
+		background-image: none;
+		backdrop-filter: blur(48px);
+	}
+}
+
+nav[visible=true]{
+	right:0;
+}
+
+.navigation-container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 64px;
+	gap: 32px;
+	height: 100vh;
+}
+.navigation-item + .navigation-item{
+	margin-top: 32px;
+}
+.navigation-item{
+	list-style: none;
+}
+.navigation-item>a{
+	text-decoration: none;
+	color:white;
+	font-size: 18px;
+}
+
+.navigation-item>a:hover{
+	color: var(--color-primary);
+	border-bottom: 2px solid var(--color-primary);
+}
+
+
+.logo{
+	font-size: 24px;
+}
+
+#menu-button{
+	font-size: 32px;
+	z-index: 10;
+}
+
+@media only screen and (min-width:600px) {
+	.navigation-container{
+		flex-direction: row;
+		height: auto;
+		margin: 16px;
+		padding: 0;
+	}
+	nav{
+		position: relative;
+		right: 0;
+	}
+	#menu-button{
+		display: none;
+	}
+	.navigation-item>a:hover{
+		color:white;
+		border-bottom: 2px solid white;
+	}
+	header{
+		padding-inline: 32px; 
+	}
+
+	.navigation-item + .navigation-item{
+		margin-top: auto;
+		margin-left: 32px;
+	}
+	
+}
+
+
+/* Styling the footer */
+
+footer{
+	background-image: var(--gradient-accent);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+
+	padding: 4rem 1rem;
+}
+
+.social-media-links{
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.social-media__icon + .social-media__icon{
+	margin-left:16px;
+}
+
+@supports(gap:1rem){
+	.social-media-links{
+		gap:16px;
+	}
+	.navigation-container{
+		gap:32px;
+	}
+}
+
+.social-media__icon>img{
+	color:white;
+	aspect-ratio: 1/1;
+	width: 2rem;
+}
+
+.social-media__icon>img:hover{
+	filter:  invert(9%) sepia(88%) saturate(6480%) hue-rotate(322deg) brightness(109%) contrast(98%);
+}
+
+.copyrigth-text{
+	letter-spacing: 4px;
+	opacity: 50%;
+}
